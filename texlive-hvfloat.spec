@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hvfloat
+# catalog-date 2009-07-14 22:44:19 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-hvfloat
 Version:	1.1
 Release:	1
@@ -49,6 +55,7 @@ here.
 %doc %{_texmfdistdir}/doc/latex/hvfloat/hvfloat.tex
 %doc %{_texmfdistdir}/doc/latex/hvfloat/rose.eps
 %doc %{_texmfdistdir}/doc/latex/hvfloat/rose.png
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ here.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
