@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25570
 # category Package
 # catalog-ctan /macros/latex/contrib/hvfloat
-# catalog-date 2009-07-14 22:44:19 +0200
+# catalog-date 2012-03-05 13:21:26 +0100
 # catalog-license lppl
 # catalog-version 1.1
 Name:		texlive-hvfloat
 Version:	1.1
-Release:	2
+Release:	3
 Summary:	Rotating caption and object of floats independently
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvfloat
@@ -25,7 +25,7 @@ different rotating angles within a float. All objects and
 captions can be framed. The main command is \hvFloat{float
 type}{floating object}{caption}{label}; a simple example is
 \hvFloat{figure}{\includegraphics{rose}}{Caption}{fig:0}.
-Options are included to place captions to the right or left,
+Options are provided to place captions to the right or left,
 and rotated. Setting nonFloat=true results in placing the float
 here.
 
@@ -40,11 +40,10 @@ here.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/hvfloat/hvfloat.sty
-%doc %{_texmfdistdir}/doc/latex/hvfloat/VERSION-1.1
+%doc %{_texmfdistdir}/doc/latex/hvfloat/README
 %doc %{_texmfdistdir}/doc/latex/hvfloat/bateaux.jpg
 %doc %{_texmfdistdir}/doc/latex/hvfloat/hvfloat.pdf
 %doc %{_texmfdistdir}/doc/latex/hvfloat/hvfloat.tex
-%doc %{_texmfdistdir}/doc/latex/hvfloat/rose.eps
 %doc %{_texmfdistdir}/doc/latex/hvfloat/rose.png
 
 #-----------------------------------------------------------------------
