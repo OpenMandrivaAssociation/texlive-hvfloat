@@ -1,12 +1,12 @@
 Name:		texlive-hvfloat
-Version:	2.12a
+Version:	64967
 Release:	1
 Summary:	Rotating caption and object of floats independently
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvfloat
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ and rotated. Setting nonFloat=true results in placing the float
 here.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,7 @@ here.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
