@@ -1,6 +1,6 @@
 Name:		texlive-hvfloat
-Version:	65069
-Release:	2
+Version:	67149
+Release:	1
 Summary:	Rotating caption and object of floats independently
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvfloat
