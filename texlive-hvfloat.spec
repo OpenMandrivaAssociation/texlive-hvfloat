@@ -1,5 +1,5 @@
 Name:		texlive-hvfloat
-Version:	68586
+Version:	70675
 Release:	1
 Summary:	Rotating caption and object of floats independently
 Group:		Publishing
