@@ -3,7 +3,7 @@ Version:	70675
 Release:	1
 Summary:	Rotating caption and object of floats independently
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hvfloat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hvfloat
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hvfloat.doc.r%{version}.tar.xz
